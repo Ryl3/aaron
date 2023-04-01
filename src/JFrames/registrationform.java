@@ -23,11 +23,11 @@ public class registrationform extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
-        jTextField4 = new javax.swing.JTextField();
-        jPasswordField1 = new javax.swing.JPasswordField();
-        jPasswordField2 = new javax.swing.JPasswordField();
+        lname = new javax.swing.JTextField();
+        fname = new javax.swing.JTextField();
+        email = new javax.swing.JTextField();
+        cpassword = new javax.swing.JPasswordField();
+        password = new javax.swing.JPasswordField();
         yeer = new javax.swing.JComboBox<>();
         jLabel7 = new javax.swing.JLabel();
         month = new javax.swing.JComboBox<>();
@@ -38,6 +38,7 @@ public class registrationform extends javax.swing.JFrame {
         jCheckBox3 = new javax.swing.JCheckBox();
         signup = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -48,30 +49,30 @@ public class registrationform extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(173, 216, 250));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField1.setBackground(new java.awt.Color(173, 216, 250));
-        jTextField1.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
-        jTextField1.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), "Last name", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
-        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 10, 190, 40));
+        lname.setBackground(new java.awt.Color(173, 216, 250));
+        lname.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
+        lname.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), "Last name", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
+        jPanel1.add(lname, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 10, 190, 40));
 
-        jTextField3.setBackground(new java.awt.Color(173, 216, 250));
-        jTextField3.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
-        jTextField3.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), "First name", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
-        jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 40));
+        fname.setBackground(new java.awt.Color(173, 216, 250));
+        fname.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
+        fname.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), "First name", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
+        jPanel1.add(fname, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 40));
 
-        jTextField4.setBackground(new java.awt.Color(173, 216, 250));
-        jTextField4.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
-        jTextField4.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), "Mobile number or email", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
-        jPanel1.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 400, 40));
+        email.setBackground(new java.awt.Color(173, 216, 250));
+        email.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
+        email.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), "Email", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
+        jPanel1.add(email, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 400, 40));
 
-        jPasswordField1.setBackground(new java.awt.Color(173, 216, 250));
-        jPasswordField1.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
-        jPasswordField1.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), "Confirm Password", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
-        jPanel1.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 110, 190, 40));
+        cpassword.setBackground(new java.awt.Color(173, 216, 250));
+        cpassword.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
+        cpassword.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), "Confirm Password", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
+        jPanel1.add(cpassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 110, 190, 40));
 
-        jPasswordField2.setBackground(new java.awt.Color(173, 216, 250));
-        jPasswordField2.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
-        jPasswordField2.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), "New Password", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
-        jPanel1.add(jPasswordField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 190, 40));
+        password.setBackground(new java.awt.Color(173, 216, 250));
+        password.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
+        password.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), "New Password", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
+        jPanel1.add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 190, 40));
 
         yeer.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
         yeer.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -108,20 +109,23 @@ public class registrationform extends javax.swing.JFrame {
         jCheckBox1.setBackground(new java.awt.Color(173, 216, 245));
         jCheckBox1.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
         jCheckBox1.setText("Other");
-        jPanel1.add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 240, 130, 30));
+        jPanel1.add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 240, 70, 30));
 
         jCheckBox2.setBackground(new java.awt.Color(173, 216, 245));
         jCheckBox2.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
         jCheckBox2.setText("Male");
-        jPanel1.add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 120, 30));
+        jPanel1.add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 70, 30));
 
         jCheckBox3.setBackground(new java.awt.Color(173, 216, 245));
         jCheckBox3.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
         jCheckBox3.setText("Female");
-        jPanel1.add(jCheckBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 240, 130, 30));
+        jPanel1.add(jCheckBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 240, 90, 30));
 
         signup.setBackground(new java.awt.Color(173, 216, 250));
         signup.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                signupMouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 signupMouseEntered(evt);
             }
@@ -137,6 +141,9 @@ public class registrationform extends javax.swing.JFrame {
         signup.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 9, 130, 30));
 
         jPanel1.add(signup, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, 130, 50));
+
+        jPanel3.setBackground(new java.awt.Color(0, 204, 255));
+        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 220, 430, 60));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 430, 370));
 
@@ -188,6 +195,12 @@ public class registrationform extends javax.swing.JFrame {
         signup.setBackground(exit);
     }//GEN-LAST:event_signupMouseExited
 
+    private void signupMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_signupMouseClicked
+       loginform lf = new loginform();
+        this.dispose();
+        lf.setVisible(true);
+    }//GEN-LAST:event_signupMouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -224,7 +237,10 @@ public class registrationform extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPasswordField cpassword;
     private javax.swing.JComboBox<String> day;
+    private javax.swing.JTextField email;
+    private javax.swing.JTextField fname;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JCheckBox jCheckBox2;
     private javax.swing.JCheckBox jCheckBox3;
@@ -235,12 +251,10 @@ public class registrationform extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JPasswordField jPasswordField1;
-    private javax.swing.JPasswordField jPasswordField2;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JTextField lname;
     private javax.swing.JComboBox<String> month;
+    private javax.swing.JPasswordField password;
     private javax.swing.JPanel signup;
     private javax.swing.JComboBox<String> yeer;
     // End of variables declaration//GEN-END:variables
